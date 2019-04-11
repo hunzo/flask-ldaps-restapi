@@ -1,0 +1,6 @@
+flask
+pylint
+autopep8
+rope
+ldap3
+requests
