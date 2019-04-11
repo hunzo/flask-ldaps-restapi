@@ -1,4 +1,25 @@
 # "# flask-ldaps-restapi" 
+
+### '/api/ad/auth', methods=['POST']
+* 'adserver'
+* 'domain'
+* 'username'
+* 'password'
+
+### '/api/adstandard/searchinfo', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'searchuser'
+
+### '/api/adnida/searchinfo', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'searchuser'
+
 ### '/api/ad/modifypassword', methods=['POST']
 * 'adserver'
 * 'searchbase'
