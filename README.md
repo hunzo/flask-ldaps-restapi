@@ -1,21 +1,60 @@
 # "# flask-ldaps-restapi" 
+### '/api/ad/modifypassword', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'usermodify'
+* 'newpassword'
 
-@app.route('/api/ad/auth', methods=['POST'])
+### '/api/ad/modifyattributes', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'usermodify'
+* 'attributename'
+* 'attributevalue'
 
-@app.route('/api/adstandard/searchinfo', methods=['POST'])
+### '/api/ad/getdn', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'objclass'
+* 'searchobj'
 
-@app.route('/api/adnida/searchinfo', methods=['POST'])
+### '/api/ad/addusertogroup', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'username'
+* 'groupname'
 
-@app.route('/api/ad/modifypassword', methods=['POST'])
+### '/api/ad/createuser', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'domain'
+* 'binduser'
+* 'bindpassword'
+* 'username'
+* 'password'
+* 'userdescription'
 
-@app.route('/api/ad/modifyattributes', methods=['POST'])
+### '/api/ad/creategroup', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'domain'
+* 'binduser'
+* 'bindpassword'
+* 'groupname'
+* 'groupdescription'
 
-@app.route('/api/ad/getdn', methods=['POST'])
-
-@app.route('/api/ad/addusertogroup', methods=['POST'])
-
-@app.route('/api/ad/createuser', methods=['POST'])
-
-@app.route('/api/ad/creategroup', methods=['POST'])
-
-@app.route('/api/ad/search_dn', methods=['POST'])
+### '/api/ad/search_dn', methods=['POST']
+* 'adserver'
+* 'searchbase'
+* 'binduser'
+* 'bindpassword'
+* 'objclass'
+* 'searchobj'
